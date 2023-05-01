@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    letter-spacing: -1px;
+    background-color: #f7f9fc;
+}
+h3, h4, p, div {
+    margin: 0;
+}
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+}
+p {
+    font-size: 12px;
+}
+h4 {
+    font-size: 14px;
+}
+.blue-color {
+    color: #6fbaf8;
+}
+.mybtn {
+    border: 0;
+    border-radius: 3px;
+    background-color: #6fbaf8;
+    color: white;
+    font-size: 12px;
+    padding: 5px 20px;
+}
+.mybtn:hover {
+    background-color: #8acaff;
+}
+.mybtn:active {
+    background-color: #a3d5ff;
+}

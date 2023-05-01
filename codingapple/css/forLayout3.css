@@ -1,0 +1,95 @@
+@font-face {
+    font-family: '이쁜폰트';
+    src: url(../font/NanumSquareR.woff);
+}
+
+html {
+    line-height : 2; /*기본 행간 높이*/
+}
+div {
+    box-sizing: border-box;
+}
+body {
+    margin:  0px;
+    font-family: 'gulim';
+}
+/* 
+미세 회전으로 안티앨리어싱하기
+p, h4, h3, h2, h1, span {
+    transform: rotate(0.03deg);
+} */
+input, textarea {
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/wood.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px; /* margin-collapse 방지 */
+}
+.main-title {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.main-content {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.main-btn {
+    background-color: rgba(204, 154, 89, 0.603);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    box-shadow: 5px 5px;
+}
+.main-btn:hover {
+    background-color: rgb(204, 154, 89);
+}
+.main-btn:active {
+    box-shadow: -5px -5px;
+}
+.explain-box {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eee;
+    text-align: center;
+    position: relative;
+    top: -40px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item {
+    width: 100px;
+    height: 50px;
+    padding: 5px 10px;
+    background-color: coral;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+@media screen and (max-width: 800px) {
+    .main-title {
+        font-size: 30px;
+    }
+}

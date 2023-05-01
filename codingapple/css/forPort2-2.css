@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    letter-spacing: -1px;
+    background-color: #f7f9fc;
+}
+p {
+    margin: 0;
+}
+.top-container, .bottom-container {
+    margin: 20px;
+}
+.white-box {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 2px 1px #eee;
+}
+.btn-skyblue {
+    background-color: #6fbaf8;
+    color: white;
+}
+.profile-bar {
+    margin: 20px;
+}
+.profile-bar-left {
+    border-bottom: 2px solid #6fbaf8;
+    color: #6fbaf8;
+}
+.profile-bar-right {
+    border-bottom: 2px solid #f7f9fc;
+}
+.gray-border {
+    border-top: 3px solid #f7f9fc;
+}
+.profile-title {
+    margin-bottom: 20px;
+}
+@media screen and (min-width : 768px) {
+    .white-box {
+        padding-bottom: 40px;
+    }
+}
